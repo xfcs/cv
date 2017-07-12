@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****************设置IE浏览器下导航栏样式***************/
+nav{
+	display:block;
+	background-color:#0b333f;
+	border-color:#f0bf00;	
+	zoom:1;
+}
+nav .container-fluid{
+	width:80%;
+}
+nav .container-fluid .navbar-header{
+	float:left;
+}
+nav button{
+	display:none;
+}
+.navbar-toggle+a{
+	width:48px;
+	height:48px;
+	background:url(../img/github2.png) no-repeat;
+}
+.navbar-toggle+a:hover{
+	background:url(../img/github.png) no-repeat;
+}
+
+nav .container-fluid .pull-right{
+	display:block;
+}
+nav .container-fluid .navbar-collapse ul li{
+	list-style-type:none; 
+	float:left;
+}
+
+/***********个人信息*********/
+#introduce{
+	clear:both;
+	background:#1889C5;
+}
+#introduce .container{
+	width:80%;
+}
+#introduce .container img{
+	width:120px;
+	height:120px;
+	float:left;
+}
+#introduce .container>p{
+	font-size:2.2em;
+	text-align:center;
+	position:absolute;
+	top:80px;
+	left:45%;
+	white-space:nowrap;
+	filter:glow(color=#999,strength=3);
+}
+#introduce .container .introduce-content{
+	clear:both;
+	margin-top:200px;
+	font-size:1.2em;
+}
+#introduce .container .introduce-content p{
+	color:black;
+	/*filter:glow(color=#00CCFF, strength=1);*/
+}
+
+/***************专业技能*************/
+.clearfix{
+	clear:both;
+}
+.title{
+	color:white;
+	font-size:2.2em;
+	text-align:center;
+	text-indent:1em;
+	font-weight:bold;
+	margin-bottom:5%;
+}
+.title+ul li{
+	list-style-type:none;
+}
+#proSkill{
+	background-color:rgb(102,204,255);
+}
+#proSkill,#workExp,#projExp,#aboutMe,.toTop{
+	padding-top:3%;
+}
+#proSkill .container,#workExp .container,#projExp .container,#aboutMe .container{
+	width:80%;
+}
+#proSkill .container ul{
+	width:25%;
+	float:left;
+}
+
+/***************工作经验*************/
+#workExp{
+	background-color:rgb(34,195,170);
+}
+
+/*************项目经验***********/
+#projExp{
+	background-color:rgb(255,204,255);
+}
+.hidden-xs{
+	display:none;
+}
+#projExp .container ul{
+	float:left;
+	width:50%;
+	text-align:center;
+}
+#projExp .container ul li p{
+	text-align:center;
+}
+
+/**************联系我***************/
+#aboutMe{
+	padding-top:20%;
+	padding-bottom:20%;
+}
+#aboutMe span{
+	display:none;
+}
